@@ -1,5 +1,3 @@
-package org.example;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -27,12 +25,15 @@ public class homework6 {
 
     public static void main(String[] args) {
         Map<String, ArrayList<Integer>> bookPhone = new HashMap<>();
-        addNumber("Иванов", 123, bookPhone);
-        addNumber("Иванов", 1234, bookPhone);
-        addNumber("Петров", 546585, bookPhone);
-        addNumber("Сидоров", 8956477, bookPhone);
-        addNumber("Иванов", 12356233, bookPhone);
-        addNumber("Петров", 787897, bookPhone);
+        addNumber("Попов", 890921234, bookPhone);
+        addNumber("Иванов", 891023255, bookPhone);
+        addNumber("Кучин", 890913213, bookPhone);
+        addNumber("Петров", 891256712, bookPhone);
+        addNumber("Петров", 895647723, bookPhone);
+        addNumber("Кучин", 891189821, bookPhone);
+        addNumber("Иванов", 891023231, bookPhone);
+        addNumber("Ковров", 899910120, bookPhone);
         printBook(bookPhone);
     }
 }
+
